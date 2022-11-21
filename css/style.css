@@ -1,0 +1,250 @@
+@charset "utf8";
+
+html, body, header, h1, h2, h3, h4, div, p, footer {
+    margin :0;
+    padding :0;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+a {
+    color: #333333;
+    cursor: pointer;
+}
+
+#wrap {
+    color: #333333;
+    font-size: 0.9em;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/*ここからheader*/
+
+header {
+    width: 1100px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+header h1 img {
+    background-color: #000000;
+    width: 176px;
+    padding: 50px 45px 45px 45px;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav ul {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+header nav ul li {
+    width: 192px;
+    height: 48px;
+    text-align: center;
+    list-style: none;
+    border-right: 1px solid #A69999;
+    border-left: 1px solid #A69999;
+    border-collapse: collapse;
+    display: block;
+    letter-spacing: 0.12em;
+    border-bottom: solid transparent;
+    float: left;
+    transition: all 500ms;
+    padding-top: 5px;
+}
+
+header nav ul li:hover {
+    border-bottom: solid #000000;
+}
+
+header nav ul li+ li {
+    border-left: 0;
+    border-right: 1px solid #A69999;
+}
+
+header nav ul li a {
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+
+header nav ul li span {
+    font-weight: lighter;
+    font-size: 0.7em;
+    color: #A69999;
+}
+
+
+/*ここからmain*/
+
+main {
+    width: 800px;
+    clear: both;
+    float: right;
+}
+
+h3 {
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 5px;
+    margin-bottom: 13px;
+}
+
+h4 {
+    font-size: 14px;
+    background: linear-gradient(#FFFFFF, #ebebeb);
+    border: 1px solid #E4E4E4;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+section {
+    line-height: 2;
+    display: block;
+}
+
+p {
+    padding:10px;
+}
+
+span {
+    color:#000000;
+    font-weight: bold;
+}
+
+dl {
+    height: 150px;
+    overflow-y: scroll;
+    margin: 0 0 50px 10px;
+}
+
+dt {
+    font-weight: bold;
+    border-bottom: 1px solid #CCCCCC;
+    float: left;
+    left: 0;
+    width: 5em;
+}
+
+dd {
+    padding-left: 5em;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+
+.new {
+    background: #ff0000;
+    color: #FFFFFF;
+    font-size: 10px;
+    padding: 0 5px;
+    border-radius: 2px;
+    margin: 0 5px;
+}
+
+#top_button {
+    font-size: 10px;
+    float: right;
+    padding: 0;
+    text-align: center;
+}
+
+#top_button a {
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 50px;
+    line-height: 50px;
+    display: block;
+    transition: all 500ms;
+    background-color: #000000;
+}
+
+#top_button a:hover {
+    background-color: #666666;
+}
+
+/*ここからSUBMENU*/
+
+#side {
+    width: 253px;
+    float: left;
+}
+
+h2 {
+    font-size: 14px;
+    border-left: 3px solid #000000;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+#sub_menu, .box{
+    background-color: #E4E4E4;
+    padding : 15px;
+    border: 1px solid #d1d1d1;
+    margin-bottom: 15px;
+}
+
+#sub_menu ul {
+    padding-left : 0;
+    margin: 0;
+}
+
+#sub_menu ul li {
+    background-color: #FFFFFF;
+    list-style: none;
+    border: 1px solid #E4E4E4;
+}
+
+#sub_menu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 6px;
+    transition: all 500ms;
+}
+
+#sub_menu ul li a:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.box p {
+    height: 126px;
+    line-height: 2;
+}
+
+
+/*ここからfooter*/
+
+footer {
+    font-size: 0.6em;
+    color:#FFFFFF;
+    background-color: #000000;
+    text-align: center;
+    clear: both;
+    padding-bottom: 5px;
+}
+
+footer p {
+    color:#FFFFFF;
+    font-size: 12px;
+}
+
+footer a {
+    color:#FFFFFF;
+    transition: all 500ms;
+    text-decoration: none;
+}
+
+
+footer a:hover {
+    color: #000000;
+}
